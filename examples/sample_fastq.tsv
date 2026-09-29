@@ -1,0 +1,3 @@
+sample	group	r1	r2
+Sample-1	Control	rawdata/fastq/Sample-1_L1_1.fq.gz	rawdata/fastq/Sample-1_L1_2.fq.gz
+Sample-2	Treatment	rawdata/fastq/Sample-2_L1_1.fq.gz	rawdata/fastq/Sample-2_L1_2.fq.gz

@@ -1,0 +1,19 @@
+reference:
+  fasta: ref/Macaca_fascicularis_GCF_037993035_2/genome/GCF_037993035.2_T2T-MFA8v1.1_genomic.fna
+  gff3: ref/Macaca_fascicularis_GCF_037993035_2/annotation/GCF_037993035.2_T2T-MFA8v1.1_genomic.gff
+  exon_bed: ref/Macaca_fascicularis_GCF_037993035_2/annotation/GCF_037993035.2_T2T-MFA8v1.1_genomic.exons.merged.bed
+  star_index: ref/Macaca_fascicularis_GCF_037993035_2/index/star
+samples: sample_fastq.tsv
+colors: group_colors.tsv
+results: results
+alignment:
+  threads: 10
+  fastp_threads: 4
+  min_read_length: 75
+  star_twopass: false
+filters:
+  mapping_quality: 20
+  base_quality: 30
+  min_coverage: 10
+  min_alt_reads: 3
+  min_alt_fraction: 0.05

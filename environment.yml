@@ -1,0 +1,14 @@
+name: abe_rna_editing
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - fastp=0.24.1
+  - star=2.7.11b
+  - samtools>=1.17
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - pyyaml

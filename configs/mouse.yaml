@@ -1,0 +1,19 @@
+reference:
+  fasta: ref/GRCm39_ensembl107/genome/Mus_musculus.GRCm39.dna.primary_assembly.fa
+  gff3: ref/GRCm39_ensembl107/annotation/Mus_musculus.GRCm39.107.chr.gff3
+  exon_bed: ref/GRCm39_ensembl107/annotation/Mus_musculus.GRCm39.107.exons.merged.bed
+  star_index: ref/GRCm39_ensembl107/index/star
+samples: sample_fastq.tsv
+colors: group_colors.tsv
+results: results
+alignment:
+  threads: 10
+  fastp_threads: 4
+  min_read_length: 75
+  star_twopass: true
+filters:
+  mapping_quality: 20
+  base_quality: 30
+  min_coverage: 10
+  min_alt_reads: 3
+  min_alt_fraction: 0.05
